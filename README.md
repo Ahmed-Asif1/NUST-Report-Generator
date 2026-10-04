@@ -1,16 +1,16 @@
 <p align="center">
-  <img src="docs/icon.png" width="120" height="120" alt="NUST Report Generator Icon" />
+  <img src="docs/icon.png" width="120" height="120" alt="Academic Report Styler Icon" />
 </p>
 
-<h1 align="center">NUST Coursework & Lab Report Generator</h1>
+<h1 align="center">Academic Report Styler</h1>
 
 <p align="center">
-  <b>Automated, beautifully formatted lab report & assignment template generator for NUST students.</b><br>
-  <i>Turn any course manual, assignment prompt, or worksheet (.docx/.pdf) into a ready-to-fill NUST submission in seconds.</i>
+  <b>A desktop formatting utility for university engineering, science, and computing coursework.</b><br>
+  <i>Automatically formats lab manuals, assignment prompts, and worksheets into structured, submission-ready Word templates.</i>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Ahmed-Asif1/NUST-Report-Generator/releases/latest"><img src="https://img.shields.io/badge/Release-v3.3%20Beta-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Latest Release" /></a>
+  <a href="https://github.com/Ahmed-Asif1/Academic-Report-Styler/releases/latest"><img src="https://img.shields.io/badge/Release-v1.0-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Latest Release" /></a>
   <img src="https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011%20(64--bit)-1b365d?style=for-the-badge" alt="Platform" />
   <img src="https://img.shields.io/badge/Privacy-100%25%20Offline-success?style=for-the-badge" alt="100% Offline" />
   <img src="https://img.shields.io/badge/License-Proprietary-orange?style=for-the-badge" alt="License" />
@@ -18,102 +18,85 @@
 
 ---
 
-## ⚡ Quick Download
+## ⚡ Download
 
-Download the latest standalone package directly from GitHub Releases:
+Download the standalone Windows package directly from GitHub Releases:
 
-👉 **[Download NUST Report Generator v3.3 (.ZIP)](https://github.com/Ahmed-Asif1/NUST-Report-Generator/releases/latest)**
+👉 **[Download Academic Report Styler v1.0 (.ZIP)](https://github.com/Ahmed-Asif1/Academic-Report-Styler/releases/latest)**
 
 > [!NOTE]
-> **No Python, no installation, and no technical setup required.** The standalone package includes everything pre-configured. Just unzip and run.
+> **No Python, dependencies, or installation required.** The standalone package is pre-configured and portable. Extract the folder and double-click to launch.
 
 ---
 
-## 🌟 Highlights & Capabilities
+## 🌟 Highlights & Features
 
-- **14 Built-in Course Profiles**:
-  - **SEECS / Computing**: Programming (`CS`/`SE`), Discrete Mathematics, Computer Engineering (`CE`).
-  - **Engineering**: Electrical Engineering (`EE`/Oscilloscope/Schematics), Mechanical Engineering (`ME`), Civil Engineering, Chemistry/Materials (`SCME`), Physics.
-  - **Mathematics**: Calculus & Analytical Geometry, General Engineering Math.
-  - **NBS (NUST Business School)**: Marketing, Management, Accounting, Case Studies, SWOT Analysis.
-  - **Humanities & General**: Islamic Studies (`ISL`), Pakistan Studies (`PAK`), General Coursework.
-- **34 Domain-Specific Answer Blocks**:
-  - Automatically identifies whether your task requires syntax-highlighted code, terminal output, circuit schematics, hardware oscilloscope DSO captures, step-by-step mathematical working, SWOT matrices, or Islamic citations (Ayah / Hadith).
-- **One-Click Local GUI**:
-  - Clean, responsive modern web interface with light/dark theme toggle, running completely locally on your machine (`127.0.0.1`).
-- **100% Offline & Private**:
-  - Zero external cloud calls. Your assignments, manuals, and personal credentials never leave your laptop.
-- **Academic Standard Word Formatting**:
-  - Generates polished `.docx` reports matching NUST academic guidelines, complete with editable student cover sheets, dynamic tables of contents, interactive checklist boxes, and clean grading rubrics.
+- **Multi-Discipline Course Profiles**:
+  - **Computing & Software**: Programming (C++, Python, Java, OOP, Data Structures), Discrete Mathematics, Computer Engineering.
+  - **Electrical & Hardware Engineering**: Oscilloscope DSO waveform captures, circuit schematics, simulation results, hardware notes.
+  - **Mechanical, Civil & Applied Sciences**: Mechanical engineering, structural civil engineering, chemistry lab worksheets, applied physics.
+  - **Business & Management**: Case study frameworks, marketing strategy, accounting worksheets, SWOT analysis tables.
+  - **Social Sciences & Humanities**: Structured essay reflections, citations, general coursework.
+- **34 Smart Answer Box Types**:
+  - Intelligently provisions the exact answer boxes needed for each task: syntax-highlighted code containers, terminal output boxes, oscilloscope waveforms, mathematical step-by-step working, and analytical tables.
+- **Zero-Cloud, 100% Local**:
+  - Runs completely on local loopback (`127.0.0.1`). No cloud servers, no telemetry, and zero tracking. Your manuals and student details never leave your PC.
+- **Clean Academic Typography**:
+  - Produces standard `.docx` files formatted with title cover sheets, dynamic tables of contents, interactive grading rubrics, and clean borders.
 
 ---
 
-## 🚀 Getting Started (Windows)
+## 🚀 Getting Started
 
 ### 1. Download & Extract
-1. Download `NUST_Report_Generator_Beta_v3.3.zip` from [Releases](https://github.com/Ahmed-Asif1/NUST-Report-Generator/releases/latest).
-2. Right-click the `.zip` file and select **Extract All...** to any folder of your choice (e.g., Desktop or Documents).
+1. Download `Academic_Report_Styler_v1.0.zip` from [Releases](https://github.com/Ahmed-Asif1/Academic-Report-Styler/releases/latest).
+2. Right-click the `.zip` file and select **Extract All...** to any directory (e.g., Desktop or Documents).
 
 ### 2. Launch
-1. Open the extracted folder and double-click `NUSTReportGenerator.exe`.
-2. On first launch, enter the **Activation Password** provided to you by your distributor/administrator.
-3. Your local browser will automatically open the generator dashboard (`http://127.0.0.1:8765`).
+1. Open the extracted folder and run `NUSTReportGenerator.exe`.
+2. When prompted on first launch, enter the access password provided for authorized personal deployment.
+3. Your web browser will open the local dashboard (`http://127.0.0.1:8765`).
 
-### 3. Generate Your Report
-1. Place your lab or assignment manual (`.docx` or `.pdf`) into the `manuals/` folder (or drag and drop it directly onto the web interface).
-2. Click **Scan Manual** to preview detected tasks and assigned answer boxes.
-3. Customize your student details, course title, or answer boxes if desired.
-4. Click **Generate Report**. Your formatted report will be saved inside the `output/` folder!
-
----
-
-## 🔒 Security & Activation
-
-Each copy of **NUST Report Generator** is protected by cryptographic hardware-bound licensing:
-- Activation binds the software to your specific device.
-- An authorized activation password is required to initialize the software on a new PC.
-- For access inquiries or license requests, contact the repository administrator.
+### 3. Generate
+1. Place your lab or assignment manual (`.docx` or `.pdf`) into the `manuals/` directory.
+2. Click **Scan Manual** to preview detected sections and assigned answer boxes.
+3. Customize student details or answer boxes if needed, then click **Generate Report**.
+4. Your finished Word report will be saved inside the `output/` directory.
 
 ---
 
 ## 💻 System Requirements
 
-- **Operating System**: Windows 10 (64-bit) or Windows 11 (64-bit).
-- **Editor**: Microsoft Word 2016+ or LibreOffice Writer (to open and edit the output `.docx`).
-- **RAM**: 4 GB minimum (8 GB recommended).
-- **Disk Space**: ~150 MB free space.
+- **OS**: Windows 10 (64-bit) or Windows 11 (64-bit).
+- **Document Viewer**: Microsoft Word 2016+ or LibreOffice Writer.
+- **Memory**: 4 GB RAM minimum (8 GB recommended).
+- **Storage**: ~150 MB free disk space.
 
 ---
 
 ## ❓ Frequently Asked Questions (FAQ)
 
 <details>
-<summary><b>Does this software send any data over the internet?</b></summary>
+<summary><b>Does this software do the coursework for me?</b></summary>
 <br>
-No. The web interface is a local loopback server (<code>127.0.0.1</code>) that runs strictly on your own computer. No telemetry, student credentials, or coursework are ever transmitted outside your machine.
+No. Academic Report Styler is strictly a document formatting and layout assistant. It organizes questions, rubrics, and blank answer containers (code blocks, simulation tables, working boxes) so students can focus on solving problems and completing their own work.
 </details>
 
 <details>
-<summary><b>Can I work in groups or with lab partners?</b></summary>
+<summary><b>Does this tool connect to the internet?</b></summary>
 <br>
-Yes! The generator includes full group-mode support. You can add lab partners' names, CMS IDs, and sections directly from the GUI or via <code>config/students.json</code>.
+No. The web dashboard runs on a local private loopback server (<code>127.0.0.1</code>) on your own computer. It functions 100% offline.
 </details>
 
 <details>
-<summary><b>Can I customize the answer boxes for a task?</b></summary>
+<summary><b>Can I format reports for group assignments?</b></summary>
 <br>
-Yes. Before generating, you can click on any task in the GUI to add or remove specific boxes (e.g. adding an oscilloscope DSO box or removing an unused code block).
-</details>
-
-<details>
-<summary><b>Where do I report issues or suggest new course profiles?</b></summary>
-<br>
-Please open an issue on the <a href="https://github.com/Ahmed-Asif1/NUST-Report-Generator/issues">GitHub Issues</a> tab.
+Yes. The tool includes full group-work support. You can add lab partners' names and student IDs directly in the GUI or via <code>config/students.json</code>.
 </details>
 
 ---
 
-## ⚖️ License & Notice
+## ⚖️ License
 
 Copyright © 2026 Muhammad Ahmed. All rights reserved.  
-This software is proprietary and confidential. Unauthorized copying, distribution, or reverse engineering is strictly prohibited under the terms of the included [`LICENSE`](LICENSE).
+This software is provided for personal and educational use under the terms of the included [`LICENSE`](LICENSE).
